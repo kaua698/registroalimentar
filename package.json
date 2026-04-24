@@ -1,0 +1,14 @@
+{
+  "name": "diario-pet-fullstack",
+  "version": "1.0.0",
+  "description": "Diario de Alimentacao Pet - Fullstack PWA",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "start": "cd backend && npm start",
+    "build": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
