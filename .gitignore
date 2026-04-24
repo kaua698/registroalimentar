@@ -1,9 +1,23 @@
 # Dependencies
+node_modules/
 backend/node_modules/
 
 # Environment
+.env
 backend/.env
+*.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
 
 # OS files
 .DS_Store
+Thumbs.db
+
+# Misc
 __MACOSX/
+.vscode/
+.idea/
+
