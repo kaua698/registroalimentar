@@ -1,0 +1,22 @@
+{
+  "name": "Diário de Alimentação Pet",
+  "short_name": "PetAlim",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f0fdfa",
+  "theme_color": "#0d9488",
+  "description": "Registre e monitore a alimentação dos seus pets diariamente.",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
