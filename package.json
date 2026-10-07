@@ -1,14 +1,14 @@
 {
   "name": "diario-pet-fullstack",
-  "version": "1.0.0",
-  "description": "Diario de Alimentacao Pet - Fullstack PWA",
+  "version": "2.0.0",
+  "description": "Diário de Alimentação Pet - PWA fullstack (React + Vite, Node/Express, MongoDB)",
   "scripts": {
-    "install-backend": "cd backend && npm install",
-    "start": "cd backend && npm start",
-    "build": "cd backend && npm install"
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && npm --prefix backend install",
+    "start": "npm --prefix backend start",
+    "dev:api": "npm --prefix backend run dev",
+    "dev:web": "npm --prefix frontend run dev"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.19.0"
   }
 }
-
